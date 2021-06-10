@@ -13,7 +13,5 @@
         <project path="device/xiaomi/tiare" name="android_device_xiaomi_tiare" remote="tiare" revision="lineage-18.1" clone-depth="1" />
         <project path="vendor/xiaomi/tiare" name="proprietary_vendor_xiaomi_tiare" remote="mi8937" revision="lineage-18.1" clone-depth="1" />
         <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_tiare" remote="tiare" revision="lineage-18.1" clone-depth="1" />
-        <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="los" revision="lineage-18.1" clone-depth="1" />
-        <remove-project name="device/generic/opengl-transport" />
 
 </manifest>
