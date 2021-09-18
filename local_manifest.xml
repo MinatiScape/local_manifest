@@ -3,17 +3,14 @@
 
         <remote name="minati"
                 fetch="https://github.com/techyminati" />
-        <remote name="tiare"
-                fetch="https://github.com/Redmi-Go" />
+        <remote name="scape"
+                fetch="https://github.com/MinatiScape" />
         <remote name="los"
                 fetch="https://github.com/LineageOS" />
            
-        <project path="device/xiaomi/msm8937-common" name="android_device_xiaomi_msm8937-common" remote="tiare" revision="lineage-18.1" clone-depth="1" />
-        <project path="vendor/xiaomi/msm8937-common" name="proprietary_vendor_xiaomi_msm8937-common" remote="tiare" revision="lineage-18.1" clone-depth="1" /> 
-        <project path="device/xiaomi/tiare" name="android_device_xiaomi_tiare" remote="tiare" revision="lineage-18.1" clone-depth="1" />
-        <project path="vendor/xiaomi/tiare" name="proprietary_vendor_xiaomi_tiare" remote="tiare" revision="lineage-18.1" clone-depth="1" />
-        <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937" remote="minati" revision="android-11.0" clone-depth="1" />
-        <project path="vendor/xiaomi/firmware" name="android_vendor_xiaomi_firmware" remote="tiare" revision="lineage-18.1" clone-depth="1" /> 
+        <project path="device/xiaomi/olivelite" name="android_device_xiaomi_olivelite" remote="minati" revision="lineage-18.1" clone-depth="1" />
+        <project path="vendor/xiaomi/olivelite" name="proprietary_vendor_xiaomi_olivelite" remote="minati" revision="lineage-18.1" clone-depth="1" />
+        <project path="kernel/xiaomi/olivelite" name="kernel_xiaomi_olivelite" remote="scape" revision="eleven" clone-depth="1" /> 
         <remove-project name="LineageOS/android_packages_apps_Updater"/>
         <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="minati" revision="lineage-18.1" clone-depth="1" />
       
