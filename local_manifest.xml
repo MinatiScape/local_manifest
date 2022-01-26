@@ -16,5 +16,6 @@
         <project path="vendor/xiaomi/firmware" name="android_vendor_xiaomi_firmware" remote="tiare" revision="lineage-18.1" clone-depth="1" /> 
         <remove-project name="LineageOS/android_packages_apps_Updater"/>
         <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="minati" revision="lineage-18.1" clone-depth="1" />
+        <project path="packages/apps/XiaomiParts" name="android_packages_apps_XiaomiParts" remote="minati" revision="main" clone-depth="1" />
       
 </manifest>
